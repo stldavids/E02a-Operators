@@ -9,19 +9,52 @@ As with your assignments, please edit the LICENSE file (replace the [year] [full
 
 ---
 
-As always, Fork this repository, and then Clone it to your local computer.
+Created the following functions:
 
-For this exercise, you will need to edit main.py. The file is broken into many functions (def blocks), each of which is designed to perform a basic operation. Many of these are arithmetic, some work with lists or strings, and others produce random values.
+add() - Adds two numbers together
 
-To help you along, I have implemented the add function. Also, here are a few online resources that might be useful:
+sub() - Subtracts a2 from a1
 
- * [Python operators](https://www.tutorialspoint.com/python/python_basic_operators.htm)
- * [Python built-in data types](https://realpython.com/python-data-types/)
- * [The Python slice operator](https://techwithtim.net/tutorials/python-programming/beginner-python-tutorials/slice-operator/)
- * [The Python Random Module](https://www.pythonforbeginners.com/random/how-to-use-the-random-module-in-python)
- * [Python lists](https://www.w3schools.com/python/python_lists.asp)
+mult() - Multiplies a1 by a2
 
- As always, commit and push your changes to GitHub, and then turn in the URL to your repository on Canvas. 
+div() - Divides a1 by a2
+
+floorDiv() - Divides a1 by a2 with remainder rounded down
+
+mod() - Returns the remainder of a1 divided by a2.  e.g., mod(5,3) = 2, mod(15,5) = 0, mod(15,4) = 3
+
+exp() - Returns the a1 to the a2 power (exponent)
+
+orderOperations() - Returns (a1 plus a2) multiplied by a3.  i.e., changes normal order or operations 
+
+whichType() - Returns the python data type of t
+
+convertInt() - Converts i to an integer
+
+convertFloat() - Converts f to a float
+
+convertStr() - Converts s to a string
+
+concat() - Concatenates (string) s2 to the end of s1
+
+whichChar() - Returns the character at position a of string s
+
+substr() - Returns a substring of s (from position a1 to a2)
+
+reverseStr() - Returns a string which is a reversed version of s
+
+isIn() - Returns true if element e is in list l
+
+randomElement() - Returns a random element of list l
+
+randomNumber() - Returns a random number between 1000 and 9999
+
+reverseList() - Returns a list which is a mirror of l (each element is present in reverse order from l)
+
+shuffleList() - Returns a list which has all the elements of l in a random order
+
+listUntil() - Returns a list contains numbers from 0 to a
+ 
 
 ---
 
